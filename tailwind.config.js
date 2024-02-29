@@ -15,14 +15,14 @@ module.exports = {
       colors: {
         brend: {
           gray: {
-            "#78757f": "#78757f",
-            "#202327": "#202327",
-            "#b2abc3": "#b2abc3",
-            "#f1f2fb": "#f1f2fb",
-            "#DDDAE5": "#DDDAE5"
+            100: "#78757f",
+            200: "#202327",
+            300: "#b2abc3",
+            400: "#f1f2fb",
+            500: "#DDDAE5"
           },
           blue: {
-            "#28278c": "#28278c"
+            100: "#28278c"
           }
         }
       },
@@ -36,6 +36,8 @@ module.exports = {
         'card-image': "url('../assets/images/card-img.webp')",
         'main': "url('../assets/images/main-image.png')",
         'button': "url('../assets/images/button.png')",
+        'button-1': "url('../assets/images/footer-button.webp')",
+        'button-2': "url('../assets/images/footer-button-hover.webp')",
         'button-hover': "url('../assets/images/button-hover.png')",
       },
       backgroundColor: {
