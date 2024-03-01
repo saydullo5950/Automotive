@@ -7,10 +7,12 @@ module.exports = {
         mont: ['Mont']
       },
       maxWidth: {
-        "1392": "1392px"
+        "1392": "1392px",
+        340: "1360px"
       },
       padding: {
-        "85": "340px"
+        "85": "340px",
+        100: "400px"
       },
       colors: {
         brend: {
@@ -26,6 +28,9 @@ module.exports = {
           }
         }
       },
+      height: {
+        68: "272px"
+      },
       borderRadius: {
         "10": "40px"
       },
@@ -39,9 +44,11 @@ module.exports = {
         'button-1': "url('../assets/images/footer-button.webp')",
         'button-2': "url('../assets/images/footer-button-hover.webp')",
         'button-hover': "url('../assets/images/button-hover.png')",
+        'hero-image': "url('../assets/images/bg-hero-img.jpeg')",
       },
       backgroundColor: {
-        "card": "rgba(34,34,62,.48)"
+        "card": "rgba(34,34,62,.48)",
+        hero: "linear-gradient(rgba(255,255,255,0),#f1f2fb)"
       }
     },
   },
