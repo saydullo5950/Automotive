@@ -11,3 +11,7 @@
 body {
     background-color: #dfdbe8;
 }
+
+#card {
+    backdrop-filter: blur(40px);
+}
