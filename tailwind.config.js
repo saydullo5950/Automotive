@@ -49,7 +49,8 @@ module.exports = {
       backgroundColor: {
         "card": "rgba(34,34,62,.48)",
         hero: "linear-gradient(rgba(255,255,255,0),#f1f2fb)"
-      }
+      },
+
     },
   },
   plugins: [],

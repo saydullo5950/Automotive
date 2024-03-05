@@ -44,7 +44,7 @@
                 </h2>
                 <div class="relative z-10 grid lg:grid-cols-3 gap-5 py-20">
                     <!-- 1 -->
-                    <div id="card" class="bg-card border border-solid border-gray-700 rounded-xl px-3 py-6 sm:p-6">
+                    <div class="bg-card border border-solid border-gray-700 rounded-xl px-3 py-6 sm:p-6">
                         <h3 class="text-center lg:text-left text-white text-xl font-bold mt-5 mb-3">
                             The automotive industry is in a time of critical change.
                         </h3>
@@ -54,7 +54,7 @@
                         </p>
                     </div>
                     <!-- 2 -->
-                    <div id="card" class="bg-card border border-solid border-gray-700 rounded-xl px-3 py-6 sm:p-6">
+                    <div class="bg-card border border-solid border-gray-700 rounded-xl px-3 py-6 sm:p-6">
                         <h3 class="text-center lg:text-left text-white text-xl font-bold mt-5 mb-3">
                             Heavy research, br development &amp; training
                         </h3>
@@ -64,11 +64,12 @@
                         </p>
                     </div>
                     <!-- 3 -->
-                    <div id="card" class="bg-card border border-solid border-gray-700 rounded-xl px-3 py-6 sm:p-6">
-                        <h3 class="text-center lg:text-left text-white text-xl font-bold mt-5 mb-3">
+                    <div
+                        class="bg-card border border-solid border-gray-700 text-center lg:text-left rounded-xl px-3 py-6 sm:p-6">
+                        <h3 class=" text-white text-xl font-bold mt-5 mb-3">
                             The world’s leading <br> OEMs & suppliers
                         </h3>
-                        <p class="text-center lg:text-left text-brend-gray-300 text-lg">
+                        <p class="text-brend-gray-300 text-lg">
                             Turned to Invisible AI to meet ambitious production targets, maintain high-quality levels,
                             and ensure their workforce possesses the necessary skills to adapt.
                         </p>
@@ -255,9 +256,9 @@
         </div>
     </div>
     <div class="mx-auto max-w-1392 px-4 mt-14 mb-24">
-        <div class="bg-white items-center rounded-2xl p-5 sm:p-6 lg:p-12 bg-no-repeat bg-cover">
+        <div class="bg-white items-center rounded-2xl bg-no-repeat bg-cover  p-5 sm:p-6 lg:p-12">
             <div class="text-center md:text-left lg:px-12">
-                <h4 class="text-gray-500 text-base font-extrabold pb-4">
+                <h4 class="text-gray-500 font-extrabold pb-4">
                     STAY IN THE KNOW
                 </h4>
                 <h2 class="text-2xl lg:text-5xl font-semibold mb-6">
@@ -269,11 +270,16 @@
             </div>
             <!-- input -->
             <form action="#" class="space-y-4 md:space-y-0 md:flex items-center gap-8 lg:px-12">
-                <input type="email" name="email" placeholder="Email address..." class="bg-white border border-solid border-gray-300
-                rounded-full text-base w-full p-4 px-8">
-                <button
-                    class="rounded-full uppercase text-white font-bold bg-button-1 bg-cover hover:bg-button-2 text-nowrap transition-all duration-300 bg-no-repeat py-5 px-14">
-                    SUBSCRIBE
+                <input type="email" name="email" placeholder="Email address..." class="bg-white border   border-gray-300
+                rounded-full w-full focus:outline-none p-4 px-8">
+                <button type="submit" class="relative shrink-0 h-16 px-20 group">
+                    <img src="./assets/images/footer-button.webp" alt="footer-button"
+                        class="absolute top-0 left-0 size-full group-hover:opacity-0">
+                    <img src="./assets/images/footer-button-hover.webp" alt="footer-button-hover"
+                        class="absolute top-0 left-0 size-full opacity-0 group-hover:opacity-100">
+                    <span class="text-white uppercase relative z-10">
+                        subscribe
+                    </span>
                 </button>
             </form>
         </div>
